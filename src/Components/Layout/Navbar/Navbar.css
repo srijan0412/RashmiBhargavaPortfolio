@@ -1,0 +1,53 @@
+:root {
+  --theme_color : #008333;
+}
+
+.navbar {
+  width: 100%;
+  padding: 1rem 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: fixed; */
+  background-color: #fff;
+}
+
+#logo {
+  width: 180px;
+}
+
+#logo img {
+  width: 100%;
+}
+
+.navbar_right {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav_links {
+  display: flex;
+  list-style-type: none;
+  gap: 0.5rem;
+}
+
+.link_element{
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.social_links {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+.social_links li a{
+  font-size: 1rem;
+  color: var(--theme_color);
+}

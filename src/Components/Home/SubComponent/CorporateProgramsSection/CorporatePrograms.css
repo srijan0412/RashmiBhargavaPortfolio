@@ -1,0 +1,57 @@
+:root {
+  --theme_color: #008333;
+}
+
+.corporate_programs_section {
+  width: 100%;
+  padding: 0 10%;
+  margin: 4rem 0;
+}
+
+.corporate_programs_section_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 200;
+}
+
+.horizontal_line_design {
+  width: 60px;
+  height: 2px;
+  background-color: var(--theme_color);
+}
+
+/* Card Styles  */
+.corporate_cards_container {
+  width: 100%;
+  display: flex;  
+  gap: 1rem;
+}
+
+.corporate_card {
+  width: 100%;
+  height: 400px;
+  background-color: #ededed;
+  padding: 0 1.8rem;
+}
+
+.corporate_card_head {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.corporate_card_head h3 {
+  font-size: 0.8rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  width: -moz-fit-content;
+  width:fit-content;
+  text-transform: uppercase;
+}
+
+.corporate_card_head_design {
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+
+}
