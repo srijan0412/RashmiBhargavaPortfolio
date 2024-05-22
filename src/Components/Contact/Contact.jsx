@@ -1,10 +1,12 @@
-import React from 'react'
+import { ContactSectionTitle, GetInTouch } from "./SubComponent"
+import { ContactSectionTopData } from "../../Data"
 
 const Contact = () => {
   return (
-    <div>
-      Contact
-    </div>
+    <>
+      <ContactSectionTitle data={ContactSectionTopData}/>
+      <GetInTouch />
+    </>
   )
 }
 

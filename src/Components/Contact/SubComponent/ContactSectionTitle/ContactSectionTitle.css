@@ -1,0 +1,42 @@
+:root {
+  --theme_color: #008333;
+  --theme_color2: #00631a;
+}
+
+.contact_section_top {
+  width: 100%;
+  background-image: url(../../../../Assets/Contact/ContactSectionBanner.jpg);
+  display: flex;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+.contact_section_top_data {
+  width: 50%;
+}
+
+.contact_section_top_data h1 {
+  font-size: 4.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  color: #fff;
+  text-align: center;
+}
+
+.contact_section_top_span {
+  font-weight: 700;
+  color: var(--theme_color);
+}
+
+.contact_section_top_data  p{
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+}
+
+
+

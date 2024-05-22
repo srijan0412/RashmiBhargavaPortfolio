@@ -103,11 +103,20 @@ const CommentSection = {
     ]
 }
 
+// Contact page
+
+const ContactSectionTopData = {
+    title : "Whenever you need ",
+    subtitle : "we are here for you",
+    desc : "We all know how life can be challenging and hard. And that there’s no answer always to all the issues you may face. We are here to help you.",
+}
+
 export {
     HeroData,
     HeroCardsData, 
     CorporateProgramsCardsData,
     Beliefs,
     Stats,
-    CommentSection
+    CommentSection, 
+    ContactSectionTopData,
 }

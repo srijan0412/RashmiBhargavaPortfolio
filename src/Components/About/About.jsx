@@ -1,10 +1,10 @@
-import React from 'react'
+import { AboutSectionTitle } from "./SubComponents"
 
 const About = () => {
   return (
-    <div>
-      About
-    </div>
+    <>
+      <AboutSectionTitle />
+    </>
   )
 }
 

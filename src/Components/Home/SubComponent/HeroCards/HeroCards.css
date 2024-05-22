@@ -3,15 +3,12 @@
   --theme_color2: #00631a;
 }
 
-
-
 .hero_cards_container {
   width: 100%;
   padding: 0 10%;
   display: flex;
   margin: 2rem 0;
 }
-
 
 .hero_card {
   display: flex;
