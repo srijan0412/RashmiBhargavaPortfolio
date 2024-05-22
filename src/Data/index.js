@@ -111,6 +111,12 @@ const ContactSectionTopData = {
     desc : "We all know how life can be challenging and hard. And that there’s no answer always to all the issues you may face. We are here to help you.",
 }
 
+const GetStartedData = {
+    title: "Get started now",
+    subtitle: "With Aneeta Madhok, Coaching Psychologist", 
+    desc: "Get the motivation, guidance, and support you need to get your life, health, career and relationships on track. You don’t need to struggle on your own anymore!",
+}
+
 export {
     HeroData,
     HeroCardsData, 
@@ -119,4 +125,5 @@ export {
     Stats,
     CommentSection, 
     ContactSectionTopData,
+    GetStartedData,
 }

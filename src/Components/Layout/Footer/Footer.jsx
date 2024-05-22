@@ -75,6 +75,9 @@ const Footer = () => {
           <Link to="about" className="footer_link_element">
             About
           </Link>
+          <Link to="awards" className="footer_link_element">
+            Awards
+          </Link>
           <Link to="contact" className="footer_link_element">
             Contact
           </Link>

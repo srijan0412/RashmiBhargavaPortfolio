@@ -1,11 +1,13 @@
 import { ContactSectionTitle, GetInTouch } from "./SubComponent"
-import { ContactSectionTopData } from "../../Data"
+import { ContactSectionTopData, GetStartedData } from "../../Data"
+import GetStarted from "./SubComponent/GetStarted/GetStarted"
 
 const Contact = () => {
   return (
     <>
       <ContactSectionTitle data={ContactSectionTopData}/>
       <GetInTouch />
+      <GetStarted data={GetStartedData}/>
     </>
   )
 }
