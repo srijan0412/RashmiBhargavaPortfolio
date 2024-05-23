@@ -15,9 +15,7 @@ const GetStarted = ({ data }) => {
           <a href="">
             <p>RASHMI's PROFILE</p>
             <ion-icon name="document-outline"></ion-icon>
-
           </a>
-          
         </div>
       </div>
     </div>

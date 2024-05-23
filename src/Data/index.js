@@ -61,35 +61,39 @@ const CorporateProgramsCardsData = [
     },
 ]
 
-const Beliefs = {
+const BeliefsData = {
     title : "I believe that the purpose of my life is to heal myself. Each encounter with life has been with the purpose of gaining an insight into some aspect of myself that needed healing. And healing comes through simply knowing and giving yourself the space to simply let go and carry on. In this purpose of my life, lies another purpose, and that is to bring the gift of self-healing to others too.",
     subtitle : "And self-healing comes from a place of self-love.",
 }
 
-const Stats = {
+const StatsData = {
     title : "Coaching numbers",
     desc : "Before you start your coaching, you’re sure to have a number of questions about the journey you will soon undertake. Here are crunched numbers about it before coaching even begins.",
     stats : [
         {
+            key : 1,
             title : "Number of Hours of Coaching",
             value : "1500+",
         },
         {
+            key : 2,
             title : "Workshops Hosted",
             value : "500+",
         },
         {
+            key : 3,
             title : "Lives Transformed",
             value : "500+",
         },
         {
+            key : 4,
             title : "Years of coaching experience",
             value : "40+",
         },
     ],
 }
 
-const CommentSection = {
+const CommentSectionData = {
     title : "What others say about Aneeta",
     comments : [
         {
@@ -121,9 +125,9 @@ export {
     HeroData,
     HeroCardsData, 
     CorporateProgramsCardsData,
-    Beliefs,
-    Stats,
-    CommentSection, 
+    BeliefsData,
+    StatsData,
+    CommentSectionData, 
     ContactSectionTopData,
     GetStartedData,
 }

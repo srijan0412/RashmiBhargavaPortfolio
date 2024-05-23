@@ -1,0 +1,72 @@
+:root {
+  --theme_color: #008333;
+  --theme_color2: #00631a;
+}
+
+.stats_section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.stats_section_left {
+  width: 33%;
+  object-fit: cover;
+}
+
+.stats_section_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(237, 237, 237);
+  padding: 0 3rem;
+  /* padding-right: 10%; */
+}
+
+.stats_section_heading {
+  font-size: 3.2rem;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  color: var(--theme_color);
+  margin-bottom: 1rem;
+}
+
+.stats_section_desc {
+  font-size: 1.1rem;
+  font-weight: 300;
+  font-family: "Nunito Sans", Arial, sans-serif;
+}
+
+.stats_area {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+
+.stats_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+}
+
+.stats_card h1 {
+  font-size: 3.5rem;
+  font-weight: 200;
+  font-family: "Roboto", sans-serif;
+  color: var(--theme_color);
+}
+
+.stats_card h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.stats_design {
+  width: 20px;
+  height: 1.5px;
+  background-color: var(--theme_color);
+}
