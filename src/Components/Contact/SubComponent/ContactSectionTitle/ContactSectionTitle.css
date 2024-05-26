@@ -1,6 +1,6 @@
 :root {
-  --theme_color: #008333;
-  --theme_color2: #00631a;
+  --theme_color: #055799;
+  --theme_color2: #003a69;
 }
 
 .contact_section_top {
@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
   padding: 5rem 0;
+  
 }
 
 .contact_section_top_data {

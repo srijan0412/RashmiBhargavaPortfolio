@@ -1,0 +1,47 @@
+:root {
+  --theme_color: #055799;
+  --theme_color2: #003a69;
+}
+.recommendations_section {
+  width: 100%;
+  background-color: var(--theme_color);
+  padding: 3rem 10%;
+  margin-bottom: 2rem;
+}
+
+.recommendations_section h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 200;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  margin: 2rem 0;
+}
+
+.recommendations_title_span {
+  color: #000;
+  font-weight: 700;
+}
+
+/* .comment_corousel {
+  
+} */
+
+.comment_corousel_element {
+  margin: 3rem 0;
+  width: 100%;
+}
+
+.comment_corousel_element p{
+  font-size: 1rem;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.comment_corousel_element h3{
+  font-size: 1rem;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-weight: 700;
+}
+

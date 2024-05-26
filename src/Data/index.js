@@ -94,7 +94,8 @@ const StatsData = {
 }
 
 const CommentSectionData = {
-    title : "What others say about Aneeta",
+    title : "What others say",
+    subtitle: "about Rashmi",
     comments : [
         {
             comment : "is a true holistic healer who focuses on improving overall health of mind, body and soul. A gentle and generous person who related to my problems and provides guidance The biggest tangible change I have noticed since beginning the program has been: Passing the Glucose Tolerance Test Fasting Blood Sugar in the range of 100-110 within 4 weeks of starting the Plan. I lost 30 lbs in 6 weeks (don’t feel weak even after such a drastic weight loss)",

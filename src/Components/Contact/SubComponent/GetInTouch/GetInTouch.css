@@ -1,6 +1,6 @@
 :root {
-  --theme_color: #008333;
-  --theme_color2: #00631a;
+  --theme_color: #055799;
+  --theme_color2: #003a69;
 }
 
 
@@ -84,7 +84,7 @@
   font-size: 2rem;
   border: 2px solid var(--theme_color);
   color: var(--theme_color);
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 999px;
   margin-bottom: 0.5rem;
 }

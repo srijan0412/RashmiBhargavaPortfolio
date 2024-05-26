@@ -1,6 +1,6 @@
 :root {
-  --theme_color: #008333;
-  --theme_color2: #00631a;
+  --theme_color: #055799;
+  --theme_color2: #003a69;
 }
 
 .hero_cards_container {
@@ -15,7 +15,6 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: #008333;
   padding: 4rem 3rem;
   height: 460px;
   margin-top: 40px;
